@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,8 +36,8 @@
 
             <!-- Introduction Section -->
             <section id="home" class="mb-16 text-center">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Telling Stories with Data Portfolio</h1>
-                <p class="text-lg text-gray-600 mb-6">This is my public portfolio for the Telling Stories with Data course at CMU. Welcome!</p>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Story will the Data Telling you?</h1>
+                <p class="text-lg text-gray-600 mb-6">This is my public portfolio for Telling Stories with Data. Welcome!</p>
                 <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md text-left text-sm">
                     <p class="font-semibold">Quick Links:</p>
                     <ul class="list-disc list-inside mt-2">
