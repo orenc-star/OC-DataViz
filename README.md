@@ -1,112 +1,149 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSWD Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
+    <!-- Header and Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <ul class="flex flex-wrap justify-center items-center space-x-4 md:space-x-6">
+                <li><a href="https://cmustudent.github.io/tswd-portfolio-templates/" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
+                <li><a href="https://www.google.com/search?q=dataviz-examples" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
+                <li><a href="https://www.google.com/search?q=critique-by-design" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Critique by Design</a></li>
+                <li><a href="https://www.google.com/search?q=final-project-part-one" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project I</a></li>
+                <li><a href="https://www.google.com/search?q=final-project-part-two" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
+                <li><a href="https://www.google.com/search?q=final-project-part-three" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
+            </ul>
+        </nav>
+    </header>
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <div class="max-w-4xl mx-auto">
 
-# Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
+            <!-- Introduction Section -->
+            <section id="home" class="mb-16 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Telling Stories with Data Portfolio</h1>
+                <p class="text-lg text-gray-600 mb-6">This is my public portfolio for the Telling Stories with Data course at CMU. Welcome!</p>
+                <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md text-left text-sm">
+                    <p class="font-semibold">Quick Links:</p>
+                    <ul class="list-disc list-inside mt-2">
+                        <li><strong>Web page URL:</strong> <a href="https://cmustudent.github.io/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://cmustudent.github.io/tswd-portfolio-templates/</a></li>
+                        <li><strong>Repository:</strong> <a href="https://github.com/cmustudent/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://github.com/cmustudent/tswd-portfolio-templates/</a></li>
+                    </ul>
+                </div>
+            </section>
 
-# About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+            <!-- About Me Section -->
+            <section id="about" class="mb-16 bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+                <p class="text-gray-700 leading-relaxed">Hi! I really like data. And I like visualizations. So I guess you can say that I like data visualizations!</p>
+            </section>
+            
+            <!-- What I Hope to Learn Section -->
+            <section id="learning" class="mb-16 bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">What I Hope to Learn</h2>
+                <p class="text-gray-700 leading-relaxed mb-6">All the things - obviously. Maybe I want to make a list of all the things. If so, I can do so like this:</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">Ordered List</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                            <li>List item #1</li>
+                            <li>List item #2</li>
+                            <li>List item #3</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">Unordered List</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>List item #1</li>
+                            <li>List item #2</li>
+                            <li>List item #3</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-# What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
+            <!-- Portfolio Examples Section -->
+            <section id="portfolio" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Portfolio Examples</h2>
+                <div class="space-y-8">
+                    <!-- Assignment Card 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-2">Assignment: Visualizing Government Debt</h3>
+                        <p class="text-gray-600 mb-4">For this assignment, I set up and linked to a new page to explore government debt data.</p>
+                        <a href="https://www.google.com/search?q=visualizing-government-debt" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                    </div>
+                    <!-- Assignment Card 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-2">Assignment 3 & 4: Critique by Design</h3>
+                        <p class="text-gray-600 mb-4">For this assignment, I analyzed and redesigned an existing visualization.</p>
+                        <a href="https://www.google.com/search?q=critique-by-design" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Final Project Section -->
+            <section id="final-project" class="mb-16 bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Final Project</h2>
+                <p class="text-gray-700 leading-relaxed mb-6">Here is a high-level description of my final project, broken down into its three parts.</p>
+                <div class="flex flex-col sm:flex-row sm:justify-around text-center gap-4">
+                    <a href="https://www.google.com/search?q=final-project-part-one" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part I</a>
+                    <a href="https://www.google.com/search?q=final-project-part-two" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part II</a>
+                    <a href="https://www.google.com/search?q=final-project-part-three" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part III</a>
+                </div>
+            </section>
 
-1. List item #1
-2. List item #2
-3. List item #3
+             <!-- Image Example Section -->
+            <section id="image-example" class="mb-16 bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Adding Images</h2>
+                <p class="text-gray-700 leading-relaxed mb-6">Here's an example of how to add an image to my portfolio.</p>
+                <div class="text-center">
+                    <img src="https://placehold.co/600x400/EBF4FF/76A9EA?text=Funny+Dog+Picture" 
+                         alt="A placeholder for a funny dog picture" 
+                         class="rounded-lg shadow-lg mx-auto w-full max-w-md"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Not+Found';">
+                    <p class="text-xs text-gray-500 mt-2">
+                        Original photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
 
-or...
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">References</h3>
+                        <p class="text-gray-400 text-sm"><em>List any references you used here.</em></p>
+                    </div>
+                     <div>
+                        <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
+                        <p class="text-gray-400 text-sm"><em>If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.</em></p>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-700 pt-6">
+                    <p class="text-gray-500 text-sm">&copy; 2024 Your Name Here. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-- List item #1
-- List item #2
-- List item #3
-
-# Portfolio
-
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
-
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
-
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
-
-## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
-
----
-## Other stuff you can do (you can remove this section - it's just for your reference.)
-
-### Changing text
-
-You can change text, like this: 
-
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
-
-### Creating tables
-
-You can build tables like this: 
-
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
-
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
-
-You can use different headings, like this: 
-
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
-
-### Adding images
-
-Here's an example of how to add an image to my portfolio.  
-
-![funny dog picture](funny-dog-unsplash.jpg)
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-Alternately, you can set the size of the image using just a bit of HTML: 
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
-
-### Setting up a separate page
-
-So here's the code you'll need to add to your own site to create a second page. 
-
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
-
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
-
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
-
-## References
-_List any references you used here._
-
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+</body>
+</html>
