@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,11 +37,11 @@
             <!-- Introduction Section -->
             <section id="home" class="mb-16 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Story will the Data Telling you?</h1>
-                <p class="text-lg text-gray-600 mb-6">This is my public portfolio for Telling Stories with Data. Welcome!</p>
+                <p class="text-lg text-gray-600 mb-6">This is my public portfolio showing how to tell stories with Data. Hope you will enjoy!</p>
                 <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md text-left text-sm">
                     <p class="font-semibold">Quick Links:</p>
                     <ul class="list-disc list-inside mt-2">
-                        <li><strong>Web page URL:</strong> <a href="https://cmustudent.github.io/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://cmustudent.github.io/tswd-portfolio-templates/</a></li>
+                        <li><strong>Web page URL:</strong> <a href="https://orenc-star.github.io/OC-DataViz/index.html" class="underline hover:text-blue-800">https://orenc-star.github.io/OC-DataViz/index.html</a></li>
                         <li><strong>Repository:</strong> <a href="https://github.com/cmustudent/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://github.com/cmustudent/tswd-portfolio-templates/</a></li>
                     </ul>
                 </div>
@@ -50,36 +50,22 @@
             <!-- About Me Section -->
             <section id="about" class="mb-16 bg-white p-8 rounded-lg shadow-md">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
-                <p class="text-gray-700 leading-relaxed">Hi! I really like data. And I like visualizations. So I guess you can say that I like data visualizations!</p>
+                <p class="text-gray-700 leading-relaxed">Hello. I am Oren. I live in Pittsburgh during my program. I study arts management and work on creative tech projects. I love data stories that help people decide, especially when the story connects culture, community, and operations. I play piano, guitar, and clarinet.</p>
             </section>
             
             <!-- What I Hope to Learn Section -->
             <section id="learning" class="mb-16 bg-white p-8 rounded-lg shadow-md">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">What I Hope to Learn</h2>
-                <p class="text-gray-700 leading-relaxed mb-6">All the things - obviously. Maybe I want to make a list of all the things. If so, I can do so like this:</p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="font-semibold text-lg mb-2">Ordered List</h3>
-                        <ol class="list-decimal list-inside space-y-2 text-gray-600">
-                            <li>List item #1</li>
-                            <li>List item #2</li>
-                            <li>List item #3</li>
-                        </ol>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-lg mb-2">Unordered List</h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-600">
-                            <li>List item #1</li>
-                            <li>List item #2</li>
-                            <li>List item #3</li>
-                        </ul>
-                    </div>
-                </div>
+                <ul class="list-disc list-inside space-y-2 text-gray-600">
+                    <li>I'm hoping to learn how to assess my charts and how to make them part of my performance when I present ideas.</li>
+                    <li>I want to learn how to validate my data in a way that convinces people and allows me to be creative with it.</li>
+                </ul>
             </section>
 
             <!-- Portfolio Examples Section -->
             <section id="portfolio" class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Portfolio Examples</h2>
+                <p class="text-center text-gray-700 mb-8">This portfolio contains some charts and explanations I created during my studies. You can travel through the different examples from here or from the main menu.</p>
                 <div class="space-y-8">
                     <!-- Assignment Card 1 -->
                     <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
