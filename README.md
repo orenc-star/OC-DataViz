@@ -20,12 +20,12 @@
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4">
             <ul class="flex flex-wrap justify-center items-center space-x-4 md:space-x-6">
-                <li><a href="https://cmustudent.github.io/tswd-portfolio-templates/" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
-                <li><a href="https://www.google.com/search?q=dataviz-examples" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
-                <li><a href="https://www.google.com/search?q=critique-by-design" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Critique by Design</a></li>
-                <li><a href="https://www.google.com/search?q=final-project-part-one" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project I</a></li>
-                <li><a href="https://www.google.com/search?q=final-project-part-two" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
-                <li><a href="https://www.google.com/search?q=final-project-part-three" target="_blank" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
+                <li><a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
+                <li><a href="dataviz-examples.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
+                <li><a href="critique-by-design.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Critique by Design</a></li>
+                <li><a href="final-project-part-one.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project I</a></li>
+                <li><a href="final-project-part-two.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
+                <li><a href="final-project-part-three.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
             </ul>
         </nav>
     </header>
@@ -85,13 +85,13 @@
                     <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <h3 class="text-2xl font-semibold mb-2">Assignment: Visualizing Government Debt</h3>
                         <p class="text-gray-600 mb-4">For this assignment, I set up and linked to a new page to explore government debt data.</p>
-                        <a href="https://www.google.com/search?q=visualizing-government-debt" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                        <a href="visualizing-government-debt.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
                     </div>
                     <!-- Assignment Card 2 -->
                     <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <h3 class="text-2xl font-semibold mb-2">Assignment 3 & 4: Critique by Design</h3>
                         <p class="text-gray-600 mb-4">For this assignment, I analyzed and redesigned an existing visualization.</p>
-                        <a href="https://www.google.com/search?q=critique-by-design" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                        <a href="critique-by-design.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
                     </div>
                 </div>
             </section>
@@ -101,9 +101,9 @@
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Final Project</h2>
                 <p class="text-gray-700 leading-relaxed mb-6">Here is a high-level description of my final project, broken down into its three parts.</p>
                 <div class="flex flex-col sm:flex-row sm:justify-around text-center gap-4">
-                    <a href="https://www.google.com/search?q=final-project-part-one" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part I</a>
-                    <a href="https://www.google.com/search?q=final-project-part-two" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part II</a>
-                    <a href="https://www.google.com/search?q=final-project-part-three" target="_blank" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part III</a>
+                    <a href="final-project-part-one.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part I</a>
+                    <a href="final-project-part-two.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part II</a>
+                    <a href="final-project-part-three.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part III</a>
                 </div>
             </section>
 
@@ -147,3 +147,4 @@
 
 </body>
 </html>
+
