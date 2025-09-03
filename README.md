@@ -102,7 +102,7 @@
                          class="rounded-lg shadow-lg mx-auto w-full max-w-md"
                          onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Not+Found';">
                     <p class="text-xs text-gray-500 mt-2">
-                        Original photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
+                        Original photo by <a href="funny-dog-unsplash.jpg" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
                     </p>
                 </div>
             </section>
