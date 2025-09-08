@@ -121,11 +121,11 @@
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
-                        <p class="text-gray-400 text-sm"><em>If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.</em></p>
+                        <p class="text-gray-400 text-sm"><em>I used Gemini 2.5 Pro to generate the HTML for this website.</em></p>
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
-                    <p class="text-gray-500 text-sm">&copy; 2024 Your Name Here. All Rights Reserved.</p>
+                    <p class="text-gray-500 text-sm">&copy; 2025 Oren Cohen. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
