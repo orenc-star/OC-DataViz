@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oren Cohen Portfolio</title>
+    <title>TSWD Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +42,7 @@
                     <p class="font-semibold">Quick Links:</p>
                     <ul class="list-disc list-inside mt-2">
                         <li><strong>Web page URL:</strong> <a href="https://orenc-star.github.io/OC-DataViz/index.html" class="underline hover:text-blue-800">https://orenc-star.github.io/OC-DataViz/index.html</a></li>
-                        <li><strong>Repository:</strong> <a href="https://github.com/orenc-star/OC-DataViz/" class="underline hover:text-blue-800">https://github.com/orenc-star/OC-DataViz/</a></li>
+                        <li><strong>Repository:</strong> <a href="https://github.com/cmustudent/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://github.com/cmustudent/tswd-portfolio-templates/</a></li>
                     </ul>
                 </div>
             </section>
@@ -97,12 +98,12 @@
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Adding Images</h2>
                 <p class="text-gray-700 leading-relaxed mb-6">Here's an example of how to add an image to my portfolio.</p>
                 <div class="text-center">
-                    <img src="https://placehold.co/600x400/EBF4FF/76A9EA?text=Funny+Dog+Picture" 
-                         alt="A placeholder for a funny dog picture" 
+                    <img src="funny-dog-unsplash.jpg" 
+                         alt="A funny dog wearing glasses" 
                          class="rounded-lg shadow-lg mx-auto w-full max-w-md"
                          onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Not+Found';">
                     <p class="text-xs text-gray-500 mt-2">
-                        Original photo by <a href="funny-dog-unsplash.jpg" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
+                        Original photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
                     </p>
                 </div>
             </section>
@@ -132,4 +133,5 @@
 
 </body>
 </html>
+
 
