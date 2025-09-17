@@ -56,7 +56,7 @@
                 
                 <!-- Embedded Chart using an iFrame -->
                 <div class="w-full bg-slate-50 p-2 sm:p-4">
-                     <iframe src="drinksChart" class="w-full h-[850px] border-0 rounded-lg" title="Drinks on a Date Visualization"></iframe>
+                     <iframe src="drinksChart.html" class="w-full h-[850px] border-0 rounded-lg" title="Drinks on a Date Visualization"></iframe>
                 </div>
             </div>
 
