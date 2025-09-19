@@ -43,7 +43,7 @@
 
             <!-- Page Title and Intro -->
             <section class="text-center mb-12">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">My Critique Journey</h1>
+                <h1 class="text-6xl md:text-5xl font-bold text-gray-900 mb-4">My Critique Journey</h1>
                 <p class="text-gray-700 leading-relaxed max-w-2xl mx-auto">In this page, I will take you through the process of how I explored, critiqued, and redesigned a data visualization.</p>
             </section>
 
@@ -149,7 +149,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8">
-            <div class="max-w-4xl mx-auto text-center">
+            <div class="max-w-6xl mx-auto text-center">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
