@@ -119,7 +119,7 @@
             
             <!-- Step 5 -->
             <section class="mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 5: Building the Final Solution</h2>
+                <h2 class="text-6xl font-bold text-gray-900 mb-4">Step 5: Building the Final Solution</h2>
                 <p class="text-gray-700 leading-relaxed mb-4">While their advice was very simple, not to redesign the chart or change the type but just to add a short explanation, it led me to a deeper realization. A few well-chosen words in the description can completely shift how people interpret the numbers. In this case, the confusion came from not understanding the scope of the data. I appreciated that the original designer used the word “most popular” to frame the drink types, which already gives a helpful signal about preferences. Another helpful word is “typically,” which makes it clear that we’re talking about general dating behavior, not just first dates. And finally, the word “choices” reflects that the data comes from a selection of multiple options, not a single pick.</p>
                 <p class="text-gray-700 leading-relaxed font-semibold">That’s why I chose to revise the title to: “Most popular types of drinks men and women order on dates, typically.”</p>
                 <p class="text-gray-700 leading-relaxed font-semibold mt-2">And in the description below it, I added a clarifying line: “Based on a multiple-choice survey, showing the proportion of people who would order each drink versus those who would not.”</p>
