@@ -39,11 +39,11 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-12">
-        <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
 
             <!-- Page Title and Intro -->
             <section class="text-center mb-12">
-                <h1 class="text-6xl md:text-5xl font-bold text-gray-900 mb-4">My Critique Journey</h1>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">My Critique Journey</h1>
                 <p class="text-gray-700 leading-relaxed max-w-2xl mx-auto">In this page, I will take you through the process of how I explored, critiqued, and redesigned a data visualization.</p>
             </section>
 
@@ -119,7 +119,7 @@
             
             <!-- Step 5 -->
             <section class="mb-12">
-                <h2 class="text-6xl font-bold text-gray-900 mb-4">Step 5: Building the Final Solution</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Step 5: Building the Final Solution</h2>
                 <p class="text-gray-700 leading-relaxed mb-4">While their advice was very simple, not to redesign the chart or change the type but just to add a short explanation, it led me to a deeper realization. A few well-chosen words in the description can completely shift how people interpret the numbers. In this case, the confusion came from not understanding the scope of the data. I appreciated that the original designer used the word “most popular” to frame the drink types, which already gives a helpful signal about preferences. Another helpful word is “typically,” which makes it clear that we’re talking about general dating behavior, not just first dates. And finally, the word “choices” reflects that the data comes from a selection of multiple options, not a single pick.</p>
                 <p class="text-gray-700 leading-relaxed font-semibold">That’s why I chose to revise the title to: “Most popular types of drinks men and women order on dates, typically.”</p>
                 <p class="text-gray-700 leading-relaxed font-semibold mt-2">And in the description below it, I added a clarifying line: “Based on a multiple-choice survey, showing the proportion of people who would order each drink versus those who would not.”</p>
@@ -149,7 +149,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8">
-            <div class="max-w-6xl mx-auto text-center">
+            <div class="max-w-3xl mx-auto text-center">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
