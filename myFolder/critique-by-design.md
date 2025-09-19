@@ -50,14 +50,23 @@
             <!-- Divider -->
             <hr class="my-8 border-gray-200">
 
-            <!-- Step 1 & 2 -->
+            <!-- Step 1 -->
             <section class="mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 1 & 2: Finding and Analyzing the Chart</h2>
-                <p class="mb-4 text-gray-700 leading-relaxed">I started by looking at <a href="https://makeovermonday.co.uk/" class="text-blue-600 hover:underline">makeovermonday.co.uk</a>, which collects different data visualizations. One title in particular caught my eye: <a href="https://dribbble.com/shots/10539609-Drink-and-Dating-Infographics" class="text-blue-600 hover:underline">Drinking & Dating</a>, and I felt curious about the theme. Here is the chart I found:</p>
-                <img src="Chart 1.jpg" alt="The original chart: Drinking & Dating Infographics" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+1+Image';">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 1: Finding the Chart</h2>
+                <p class="mb-4 text-gray-700 leading-relaxed">I started by looking at <a href="https://makeovermonday.co.uk/" class="text-blue-600 hover:underline">makeovermonday.co.uk</a>, which collects different data visualizations. One title in particular caught my eye: <a href="https://dribbble.com/shots/10539609-Drink-and-Dating-Infographics" class="text-blue-600 hover:underline">Drinking & Dating</a>, and I felt curious about the theme.</p>
+            </section>
+
+            <!-- Step 2 -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 2: Looking at the Visualization</h2>
+                <p class="mb-4 text-gray-700 leading-relaxed">Here is the chart I found:</p>
+                <img src="Chart 1.webp" alt="The original chart: Drinking & Dating Infographics" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+1+Image';">
                 <p class="text-gray-700 leading-relaxed">At first glance, I thought the designer did a good job. The chart looked engaging, colorful, and well-structured. But as I continued to review it, I felt that something was confusing me. I decided to read the article the designer mentioned as inspiration: <a href="https://www.zoosk.com/date-mix/dating-data/dating-data-study-drinks-dating/" class="text-blue-600 hover:underline">Data Study: Drinking & Dating</a>. While the design was visually appealing, I felt that the chart only picked a very narrow piece of the article’s data and didn’t serve the audience as well as it could. The article had more layers about drinking culture and dating behavior that the visualization didn’t capture.</p>
-                
-                <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Writing the Critique</h3>
+            </section>
+            
+            <!-- Writing the Critique -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Writing the Critique</h2>
                 <p class="mb-4 text-gray-700 leading-relaxed">This is the critique I wrote after analyzing the visualization across usefulness, completeness, perceptibility, truthfulness, intuitiveness, aesthetics, and engagement:</p>
                 
                 <blockquote class="mb-6">
@@ -81,7 +90,7 @@
             <section class="mb-12">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 3: Sketching a Solution</h2>
                 <p class="text-gray-700 leading-relaxed mb-4">I decided to concentrate on one topic and one dataset that I believed would be more engaging: which drinks people choose to order on their dates. My first redesign sketch focused on showing differences between men and women in drink preferences. I also separated alcoholic and non-alcoholic drinks to make the message clearer:</p>
-                <img src="Chart 2.jpg" alt="First redesign sketch focusing on drink preference differences" class="w-full rounded-lg shadow-md border border-gray-200" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+2+Image';">
+                <img src="Chart 2.png" alt="First redesign sketch focusing on drink preference differences" class="w-full rounded-lg shadow-md border border-gray-200" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+2+Image';">
             </section>
 
             <!-- Step 4 -->
@@ -89,22 +98,22 @@
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Step 4: Testing and Iterating the Design</h2>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Rethinking the Audience</h3>
                 <p class="text-gray-700 leading-relaxed mb-4">Once I built this version, I quickly saw that something was missing. It's useful to know that men prefer beer more than women, but emphasizing only the difference ignores the general popularity of each drink, which could also be valuable. This became clearer when I showed the graph to my father. He asked, "Who is the audience for this?" I initially said singles, but he suggested that bar owners and bartenders would be a better audience, since the insights would be more valuable to them. That feedback led me to switch to the side-by-side version.</p>
-                <img src="Chart 3.jpg" alt="Side-by-side bar chart version" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+3+Image';">
+                <img src="Chart 3.png" alt="Side-by-side bar chart version" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+3+Image';">
                 
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Refining the Palette</h3>
                 <p class="text-gray-700 leading-relaxed mb-4">At this stage, I had not yet chosen colors. I asked my wife for feedback on the color palette. She said the use of blue for men and red for women felt too obvious and stereotypical, almost childish. She also expected something cleaner and softer. Based on her input, I switched to a more neutral and balanced palette:</p>
-                <img src="Chart 4.jpg" alt="Version with a neutral and balanced color palette" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+4+Image';">
+                <img src="Chart 4.png" alt="Version with a neutral and balanced color palette" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+4+Image';">
                 
                 <p class="text-gray-700 leading-relaxed mb-4">But then she also said that this version lacked the playful, colorful feeling of the original. To balance this, I eliminated the gray tones and the heavy axis lines, and I added an image above the chart to bring back some character. This is the result:</p>
-                <img src="Chart 5.jpg" alt="Final color version with added character image" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+5+Image';">
+                <img src="Chart 5.jpg" alt="Final color version with added character image" class="w-full rounded-lg shadow-md border border-gray-200 mb-8" onerror="this.onerror=null;this.src='httpshttps://placehold.co/800x500?text=Chart+5+Image';">
                 
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Getting Feedback from Classmates</h3>
                 <p class="text-gray-700 leading-relaxed mb-4">I showed the design to friends in class. Their first reaction was positive: they said they could quickly see the trend between men and women, especially with beer and wine. They also liked that I chose to separate alcoholic from non-alcoholic drinks. After a while, my classmates gave me three critical points that I knew I needed to address. The first was the unavoidable confusion around summing the numbers to 100%. This was fascinating to hear, because I had actually pointed out the same issue when critiquing the original designer’s chart. I thought I had avoided it in my own version, but I ended up falling into the same trap. That moment showed me how self-critique is not always enough, even when you know what to look out for.</p>
                 <p class="text-gray-700 leading-relaxed mb-4">The second piece of feedback was about clarity of scope. They weren’t sure if the chart represented only first-date choices or drinks people typically order on dates in general. The last point concerned the icons I used as labels at the bottom of the chart. While some were clear, others were less recognizable, which forced them to rely on the text instead. They suggested that using real images might work better and make the visualization more immediately intuitive.</p>
                 
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Live Editing</h3>
-                <p class="text-gray-700 leading-relaxed mb-4">Before responding to their other feedback, I tried on the fly to see if a different type of bar chart would solve the problem of people wanting to sum the percentages to 100. Since I was working with Gemini to create these charts, I had the valuable opportunity to edit the chart in just a minute and show them a new version immediately. This allowed me to capture their reactions to the updated chart right after they had given me their initial feedback (which I see as a useful use-case of AI):</p>
-                <img src="Chart 6.jpg" alt="Live edited version with a different bar chart style" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+6+Image';">
+                <p class="text-gray-700 leading-relaxed mb-4">Before responding to their other feedback, I tried on the fly to see if a different type of bar chart would solve the problem of people wanting to sum the percentages to 100. Since I was working with Gemini to create these charts, I had the valuable opportunity to edit the chart in just a minute and show them a new version of it immediately. This allowed me to capture their reactions to the updated chart right after they had given me their initial feedback (which I see as a useful use-case of AI):</p>
+                <img src="Chart 6.png" alt="Live edited version with a different bar chart style" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+6+Image';">
                 <p class="text-gray-700 leading-relaxed">Still, when I showed them this new version, they preferred the first sketch. I asked if adding a multiple-choice survey style to the description under the title would make the numbers clearer, and they agreed it would help, which led me to a new way of thinking about how to address the first two pieces of feedback.</p>
             </section>
             
@@ -115,7 +124,7 @@
                 <p class="text-gray-700 leading-relaxed font-semibold">That’s why I chose to revise the title to: “Most popular types of drinks men and women order on dates, typically.”</p>
                 <p class="text-gray-700 leading-relaxed font-semibold mt-2">And in the description below it, I added a clarifying line: “Based on a multiple-choice survey, showing the proportion of people who would order each drink versus those who would not.”</p>
                 <p class="text-gray-700 leading-relaxed my-4">This small change helps eliminate the expectation that the numbers should sum to 100 and anchors the viewer in the right context from the beginning:</p>
-                <img src="Chart 7.html" alt="The final chart with revised title and clarifying description" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+7+Image';">
+                <img src="Chart 7.png" alt="The final chart with revised title and clarifying description" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+7+Image';">
                 <p class="text-gray-700 leading-relaxed mt-4">The third piece of feedback I received was to use real images instead of the drink icons, since not all of the icons were immediately recognizable. While I didn’t fully adopt this suggestion, I responded by increasing the font size of the drink names. I felt that this change would make the labels more eye-catching and improve readability without requiring a complete shift in visual style.</p>
             </section>
             
@@ -123,8 +132,8 @@
              <section class="mb-12">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Exploring a New Direction</h2>
                 <p class="text-gray-700 leading-relaxed mb-4">After completing my final result, I started exploring a new direction. I wanted to see how the chart might look with realistic drink elements instead of abstract bars. My idea was to place the drink types in two horizontal rows and use actual containers, like mugs or wine glasses, filled based on the percentage for men and women. Here is the beginning of it:</p>
-                <img src="Image 8.jpg" alt="Exploration with realistic drink elements, attempt 1" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+8+Image';">
-                <img src="Image 9.jpg" alt="Exploration with realistic drink elements, attempt 2" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+9+Image';">
+                <img src="Image 8.png" alt="Exploration with realistic drink elements, attempt 1" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+8+Image';">
+                <img src="Image 9.png" alt="Exploration with realistic drink elements, attempt 2" class="w-full rounded-lg shadow-md border border-gray-200 mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Chart+9+Image';">
                 <p class="text-gray-700 leading-relaxed">I made these two initial attempts using AI, but it was challenging to generate accurate images. The model struggled to apply the correct fill levels, possibly due to how I described the concept.</p>
             </section>
             
@@ -149,7 +158,7 @@
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
-                        <p class="text-gray-400 text-sm"><em>If you used AI, detail your use here.</em></p>
+                        <p class="text-gray-400 text-sm">I used Gemini to design the graphs and to iterate on them after receiving feedback. I also used Gemini to generate the visual concepts shown in the exploration of a new direction for further research. I used ChatGPT to help record my thoughts, clean up my writing, and revise some of the paragraphs. Most of the content was based on my own input, with ChatGPT used primarily for clarity and polish.</p>
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
@@ -161,4 +170,5 @@
 
 </body>
 </html>
+
 
