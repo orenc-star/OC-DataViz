@@ -39,7 +39,7 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-12">
-        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <div class="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
 
             <!-- Page Title and Intro -->
             <section class="text-center mb-12">
