@@ -153,7 +153,13 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
-                        <p class="text-gray-400 text-sm"><em>List any references you used here.</em></p>
+                        <ul class="text-gray-400 text-sm list-disc list-inside">
+                            <li><a href="https://makeovermonday.co.uk/" class="hover:underline">Makeover Monday</a>. (n.d.). Retrieved September 19, 2025.</li>
+                            <li>Zoosk. (n.d.). <a href="https://www.zoosk.com/date-mix/dating-data/dating-data-study-drinks-dating/" class="hover:underline">Data Study: Drinking & Dating</a>. The Date Mix.</li>
+                            <li>Yur, A. (2020). <a href="https://dribbble.com/shots/10539609-Drink-and-Dating-Infographics" class="hover:underline">Drink and Dating Infographics</a>. Dribbble.</li>
+                            <li>OpenAI. (2025). <a href="https://chat.openai.com/" class="hover:underline">ChatGPT</a>.</li>
+                             <li>Google. (2025). <a href="https://gemini.google.com/" class="hover:underline">Gemini</a>.</li>
+                        </ul>
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
