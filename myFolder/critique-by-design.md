@@ -27,12 +27,12 @@
     <header class="bg-white shadow-md sticky top-0 z-10">
         <nav class="container mx-auto px-6 py-4">
             <ul class="flex justify-center space-x-4 md:space-x-8 text-sm md:text-base">
-                <li><a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
-                <li><a href="dataviz-examples.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
+                <li><a href="../index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
+                <li><a href="../dataviz-examples.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
                 <li><a href="myFolder/critique-by-design.html" class="text-blue-600 font-bold border-b-2 border-blue-600 pb-1">Critique by Design</a></li>
-                <li><a href="final-project-part-one.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project I</a></li>
-                <li><a href="final-project-part-two.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
-                <li><a href="final-project-part-three.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
+                <li><a href="../final-project-part-one.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project I</a></li>
+                <li><a href="../final-project-part-two.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
+                <li><a href="../final-project-part-three.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
             </ul>
         </nav>
     </header>
