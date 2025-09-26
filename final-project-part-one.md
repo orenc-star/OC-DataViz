@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@
             <ul class="flex justify-center space-x-4 md:space-x-8 text-sm md:text-base">
                 <li><a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a></li>
                 <li><a href="dataviz-examples.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Data Viz Examples</a></li>
-                <li><a href="my folder/critique-by-design.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Critique by Design</a></li>
+                <li><a href=".../critique-by-design.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Critique by Design</a></li>
                 <li><a href="final-project-part-one.html" class="text-blue-600 font-bold border-b-2 border-blue-600 pb-1">Final Project I</a></li>
                 <li><a href="final-project-part-two.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project II</a></li>
                 <li><a href="final-project-part-three.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Final Project III</a></li>
@@ -285,38 +284,90 @@
             <!-- The Data Section -->
             <section class="mt-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">The Data</h2>
-                <blockquote class="my-4">
-                    A couple of paragraphs that document my data source(s), and an explanation of how I plan on using my data.
-                </blockquote>
-                <p class="text-gray-700 leading-relaxed mb-6">Text here...</p>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    To build this guide, I gathered initial data on housing, crime, amenities, and transportation across Allegheny County and the City of Pittsburgh. After an initial analysis to identify where students most commonly live, I narrowed my focus to five key neighborhoods: North Oakland, Shadyside, Bloomfield, Downtown, and Squirrel Hill South. This approach allows me to provide a detailed, comparative analysis of the areas most relevant to my target audience.
+                </p>
 
-                <blockquote class="my-4">
-                     A link to the publicly-accessible datasets I plan on using, or a link to a copy of the data I've uploaded to my Github repository, Box account or other publicly-accessible location. Using a datasource that is already accessible is highly encouraged. If I anticipate using a data source other than something that would be publicly available I will talk to my instructor first.
-                </blockquote>
-                <div class="overflow-x-auto">
+                <div class="overflow-x-auto mt-6">
                     <table class="min-w-full bg-white border border-gray-300">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="py-2 px-4 border-b">Name</th>
-                                <th class="py-2 px-4 border-b">URL</th>
-                                <th class="py-2 px-4 border-b">Description</th>
+                                <th class="py-2 px-4 border-b text-left">Category</th>
+                                <th class="py-2 px-4 border-b text-left">Name</th>
+                                <th class="py-2 px-4 border-b text-left">URL</th>
+                                <th class="py-2 px-4 border-b text-left">Description</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b font-bold align-top" rowspan="3">Housing</td>
+                                <td class="py-2 px-4 border-b align-top">Pitt Housing Map</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://www.pc.pitt.edu/housing-services/first-year-students/housing-map" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">University housing map, useful for student population estimates.</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b align-top">Student Housing Survey</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://docs.google.com/spreadsheets/d/17v0fep3mB5fYl7GO9lwXefrRri4kg0A3vydSLp1c6Cw/edit?usp=sharing" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">A sample survey of where students live.</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top">Pitt Off-Campus Listings</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://listings.ocl.pitt.edu/listing" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Off-campus housing options, indicating popular areas.</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b font-bold align-top" rowspan="2">Population</td>
+                                <td class="py-2 px-4 border-b align-top">Pitt Neighborhood Profiles</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://ucsur.pitt.edu/sites/default/files/Census%20Reports/PittsburghNeighborhoodProfiles_June2024.pdf" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Detailed demographic data for normalizing other statistics.</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top">WPRDC 2020 Census Data</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://data.wprdc.org/dataset/2020-census-redistricting-data-extracts/resource/a8414ed5-c50f-417e-bb67-82b734660da6" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Raw population and housing data from the 2020 census.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b font-bold align-top" rowspan="2">Security</td>
+                                <td class="py-2 px-4 border-b align-top">Police Data Portal</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://www.pittsburghpa.gov/Safety/Police/Police-Data-Portal" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Official source for crime reports and statistics.</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b align-top">WPRDC Crime Data</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://data.wprdc.org/dataset/monthly-criminal-activity-dashboard/resource/bd41992a-987a-4cca-8798-fbe1cd946b07" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Aggregated monthly crime data for trend analysis.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b font-bold align-top" rowspan="3">Amenities</td>
+                                <td class="py-2 px-4 border-b align-top">Downtown Pittsburgh Data</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://downtownpittsburgh.com/data/" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Data on businesses and development in the downtown area.</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b align-top">WPRDC Restaurant Inspections</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://data.wprdc.org/dataset/allegheny-county-restaurant-food-facility-inspection-violations" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Proxy for the location and number of food establishments.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b align-top">VisitPittsburgh</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://www.visitpittsburgh.com/" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">General information on entertainment and attractions.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b font-bold align-top" rowspan="3">Transportation</td>
+                                <td class="py-2 px-4 border-b align-top">PRT Performance Data</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://www.rideprt.org/inside-Pittsburgh-Regional-Transit/Transparency/performance-metrics-and-system-data" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Official data on bus routes, frequency, and performance.</td>
+                            </tr>
+                              <tr>
+                                <td class="py-2 px-4 border-b align-top">WPRDC Transit Stop Usage</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://data.wprdc.org/dataset/prt-transit-stop-usage" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">Data on the usage of different bus stops.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b align-top">Neighborhood Snapshots</td>
+                                <td class="py-2 px-4 border-b align-top"><a href="https://engage.pittsburghpa.gov/neighborhood-snapshots" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                                <td class="py-2 px-4 border-b align-top text-sm">City-provided data including transportation information.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -326,10 +377,12 @@
             <!-- Method and Medium Section -->
             <section class="mt-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Method and Medium</h2>
-                <blockquote class="my-4">
-                    In a few sentences, I should document how I plan on completing my final project.
-                </blockquote>
-                <p class="text-gray-700 leading-relaxed mb-4">Text here...</p>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    My final project will be presented as an interactive story using Shorthand, which excels at weaving narrative text with visual elements. For the data visualizations, I will use a combination of tools based on their strengths. Tableau will be used for more sophisticated visualizations like statistical maps that require detailed interaction. For the other charts in the project, I plan to use Gemini 2.5 Pro to generate the designs. All of these visual elements will be embedded within the Shorthand story to create a seamless user experience.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    It is important to note that most of the comparative metrics in this project will be normalized by population to ensure a fair comparison between neighborhoods of different sizes. This analysis is focused on a specific set of popular student neighborhoods and key parameters; viewers should be aware that many other neighborhoods and factors could be considered. The methods used for normalization and comparison are intended to provide a clear guide, but may have inherent limitations or gaps.
+                </p>
             </section>
 
         </div>
@@ -342,11 +395,20 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
-                         <p class="text-gray-400 text-sm"><em>List any references I used here.</em></p>
+                         <ul class="text-gray-400 text-sm list-disc list-inside space-y-2">
+                            <li>City of Pittsburgh. "Police Data Portal." Accessed September 26, 2025. https://www.pittsburghpa.gov/Safety/Police/Police-Data-Portal.</li>
+                            <li>Google. *Gemini 2.5*. 2025.</li>
+                            <li>OpenAI. *ChatGPT*. 2025.</li>
+                            <li>University of Pittsburgh Center for Social and Urban Research. "Pittsburgh Neighborhood Profiles - June 2024." June 2024. Accessed September 26, 2025. https://ucsur.pitt.edu/sites/default/files/Census%20Reports/PittsburghNeighborhoodProfiles_June2024.pdf.</li>
+                            <li>Western Pennsylvania Regional Data Center. "2020 Census Redistricting Data Extracts." Accessed September 26, 2025. https://data.wprdc.org/dataset/2020-census-redistricting-data-extracts.</li>
+                             <li>Western Pennsylvania Regional Data Center. "Monthly Criminal Activity Dashboard." Accessed September 26, 2025. https://data.wprdc.org/dataset/monthly-criminal-activity-dashboard.</li>
+                         </ul>
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
-                        <p class="text-gray-400 text-sm"><em>If I used AI to help me complete this assignment (within the parameters of the instruction and course guidelines), I will detail my use of AI for this assignment here.</em></p>
+                        <p class="text-gray-400 text-sm">
+                            I wrote all the text on this page. I used AI tools to assist in the final presentation of the content. Specifically, I used ChatGPT for suggestions on improving grammar, spelling, and clarity. The initial designs for the data visualizations were generated using Gemini.
+                        </p>
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
