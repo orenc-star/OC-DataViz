@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,31 +65,31 @@
                 </ul>
 
                 <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Interview Script</h3>
+                <p class="text-gray-700 leading-relaxed mb-4">The following interview script is designed to validate the core assumptions of my project. The goals are to ensure the chosen preferences are comprehensive, the data visualizations are clear and insightful, and the overall story is effective and impactful for the target audience.</p>
                 <div class="overflow-x-auto my-6">
                     <table class="min-w-full bg-white border border-gray-300">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="py-2 px-4 border-b">Goal</th>
-                                <th class="py-2 px-4 border-b">Questions to Ask</th>
+                                <th class="py-2 px-4 border-b text-left">Goal</th>
+                                <th class="py-2 px-4 border-b text-left">Questions to Ask</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">Understand if the project addresses all key needs.</td>
+                                <td class="py-2 px-4 border-b align-top">"When you think about choosing a neighborhood, what are the top three things you look for? I've focused on safety, restaurants/entertainment, and transportation to CMU. Is there anything significant I might be missing?"</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">Evaluate if the visualizations are clear and insightful.</td>
+                                <td class="py-2 px-4 border-b align-top">"Looking at these charts, do they give you a clear and useful comparison between the neighborhoods? For example, does the crime chart make you feel more or less safe about a certain area? Do the restaurant and entertainment charts give you a good sense of the neighborhood's vibe?"</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">Assess if the storyboard flow is effective and impactful.</td>
+                                <td class="py-2 px-4 border-b align-top">"As you go through this story, does the flow make sense? Does it help you think differently about how you'd choose a neighborhood? What's the main takeaway for you after seeing this?"</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <p class="text-gray-700 leading-relaxed">Text here!</p>
 
                 <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Interview Findings</h3>
                  <div class="overflow-x-auto my-6">
@@ -192,5 +192,4 @@
 
 </body>
 </html>
-
 
