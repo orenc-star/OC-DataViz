@@ -98,7 +98,7 @@
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Adding Images</h2>
                 <p class="text-gray-700 leading-relaxed mb-6">Here's an example of how to add an image to my portfolio.</p>
                 <div class="text-center">
-                    <img src="funny-dog-unsplash.jpg" 
+                    <img src="images/funny-dog-unsplash.jpg" 
                          alt="A funny dog wearing glasses" 
                          class="rounded-lg shadow-lg mx-auto w-full max-w-md"
                          onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Not+Found';">
