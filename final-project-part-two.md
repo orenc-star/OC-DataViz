@@ -93,33 +93,33 @@
 
                 <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Interview Findings</h3>
                  <div class="overflow-x-auto my-6">
-                    <table class="min-w-full bg-white border border-gray-300">
+                    <table class="min-w-full bg-white border border-gray-300 text-sm">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="py-2 px-4 border-b">Questions</th>
-                                <th class="py-2 px-4 border-b">Interview 1 (briefly describe)</th>
-                                <th class="py-2 px-4 border-b">Interview 2</th>
-                                <th class="py-2 px-4 border-b">Interview 3</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Question</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Interview 1 (Recent Graduate)</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Interview 2 (2nd Year Student)</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Interview 3 (Newcomer Student)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="py-2 px-4 border-b">Question you asked here</td>
-                                <td class="py-2 px-4 border-b">Insightful feedback</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">What is missing from the preference in this storyboard?</td>
+                                <td class="py-2 px-4 border-b align-top">I’m expecting to see the rental cost per neighborhood.</td>
+                                <td class="py-2 px-4 border-b align-top">I think safety and transportation are in my top three, but also a grocery store and how close it is to my apartment are very important to me.</td>
+                                <td class="py-2 px-4 border-b align-top">I would love to see what type of food exists in the area. For example, if there are 20 restaurants, what types of restaurants are they?</td>
                             </tr>
                              <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">In the visuals, what works for you and what not so much?</td>
+                                <td class="py-2 px-4 border-b align-top">I love the categories on safety, restaurants and bars, and art and entertainment. The transportation to campus is not clear — maybe use a side-by-side bar chart for frequency and distance.</td>
+                                <td class="py-2 px-4 border-b align-top">I think the radar chart at the end is very good because it gives me the option to choose based on multiple preferences, not just one.</td>
+                                <td class="py-2 px-4 border-b align-top">I’m not sure I understand the meaning of “two restaurants per 100 people” or “two and a half.” Does it mean too many people per restaurant? Maybe just showing the total number of restaurants would be clearer.</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top font-semibold">How does the storyboard work for you? Did you love the flow of it?</td>
+                                <td class="py-2 px-4 border-b align-top">The placement of personas is not very insightful. It feels like you’re telling me who I am before showing preferences. It would be better if personas came at the end, after seeing preferences.</td>
+                                <td class="py-2 px-4 border-b align-top">I would love to see images for each chart. I think they would guide me in understanding what we are focusing on in terms of preferences.</td>
+                                <td class="py-2 px-4 border-b align-top">You mentioned the correlation between being successful in studies and having a neighborhood that fits your needs, but it felt a little out of nowhere. I can see how it might encourage people, but maybe we could find data to support that so it’s more persuasive.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -160,10 +160,41 @@
                 <p class="text-gray-700 leading-relaxed">Text here!</p>
             </section>
 
-             <!-- Moodboards / personas -->
+             <!-- Personas Section -->
             <section class="mt-8">
-                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Moodboards / Personas</h2>
-                <p class="text-gray-700 leading-relaxed">Text here!</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Personas</h2>
+                <div class="grid md:grid-cols-3 gap-8 mt-6">
+                    <!-- Maya -->
+                    <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
+                        <img src="images/maya 2.png" alt="Persona for Maya" class="w-36 h-64 rounded-lg mb-4 border-2 border-blue-500 object-cover">
+                        <h4 class="text-xl font-bold text-center mb-1">Maya (Newcomer)</h4>
+                        <p class="text-center text-sm text-gray-500 mb-4 flex-grow">Business student at Tepper, proud of her school. Loves bars and social campus events. Very athletic and enjoys group sports like running and pickleball.</p>
+                        <div class="text-sm w-full">
+                            <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Social Events on Campus, Restaurants & Bars</p>
+                            <p><strong class="font-semibold text-gray-800">Second Preferences:</strong> Sports & Group Activities (running, pickleball)</p>
+                        </div>
+                    </div>
+                    <!-- Li -->
+                    <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
+                        <img src="images/li 2.png" alt="Persona for Li" class="w-36 h-64 rounded-lg mb-4 border-2 border-green-500 object-cover">
+                        <h4 class="text-xl font-bold text-center mb-1">Li (First-Year → Second Year)</h4>
+                        <p class="text-center text-sm text-gray-500 mb-4 flex-grow">International student, very focused on studies. Loves swimming at the campus pool and enjoys eating out occasionally. Staying close to campus is very important to her.</p>
+                        <div class="text-sm w-full">
+                            <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Safety & Security, Proximity to Campus</p>
+                            <p><strong class="font-semibold text-gray-800">Second Preferences:</strong> Dining out once or twice a month</p>
+                        </div>
+                    </div>
+                    <!-- Alex -->
+                    <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
+                        <img src="images/Alex 2.png" alt="Persona for Alex" class="w-36 h-64 rounded-lg mb-4 border-2 border-purple-500 object-cover">
+                        <h4 class="text-xl font-bold text-center mb-1">Alex (Graduate Student)</h4>
+                        <p class="text-center text-sm text-gray-500 mb-4 flex-grow">Arts Management student. Loves live music, bars, and the coffee culture. Active in a campus dance club and enjoys the city’s cultural scene.</p>
+                        <div class="text-sm w-full">
+                            <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Arts & Entertainment, Live Music & Bars</p>
+                            <p><strong class="font-semibold text-gray-800">Second Preferences:</strong> Coffee Shops, Restaurants & Cafés</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </div>
@@ -192,4 +223,6 @@
 
 </body>
 </html>
+
+
 
