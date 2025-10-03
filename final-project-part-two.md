@@ -213,11 +213,13 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
-                         <p class="text-gray-400 text-sm"><em>List any references I used here.</em></p>
+                         <p>Google. "Gemini 2.5 Pro." Accessed October 3, 2025. https://gemini.google.com.</p>
+                            <p>OpenAI. "ChatGPT." Accessed October 3, 2025. https://chat.openai.com.</p>
+                            <p>Shorthand. "Shorthand." Accessed October 3, 2025. https://shorthand.com/.</p>
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
-                        <p class="text-gray-400 text-sm"><em>If I used AI to help me complete this assignment (within the parameters of the instruction and course guidelines), I will detail my use of AI for this assignment here.</em></p>
+                        <p class="text-gray-400 text-sm"><em>I utilized AI tools to support various aspects of this project. Google's Gemini 2.5 Pro was used to generate the initial designs for the charts, the persona images, and the template for the slide deck. I used OpenAI's ChatGPT as a writing assistant; I provided the initial text and then used the tool to help refine my thoughts and correct for spelling, grammar, and clarity.</p>
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
