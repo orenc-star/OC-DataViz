@@ -130,34 +130,37 @@
             <section class="mt-8">
                  <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Identified Changes for Part III</h2>
                 <div class="overflow-x-auto my-6">
-                    <table class="min-w-full bg-white border border-gray-300">
+                    <table class="min-w-full bg-white border border-gray-300 text-sm">
                         <thead class="bg-gray-100">
                             <tr>
-                                <th class="py-2 px-4 border-b">Research Synthesis</th>
-                                <th class="py-2 px-4 border-b">Anticipated Changes for Part III</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Research Synthesis</th>
+                                <th class="py-3 px-4 border-b text-left font-bold">Anticipated Changes for Part III</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="py-2 px-4 border-b">Findings or observations from interviews</td>
-                                <td class="py-2 px-4 border-b">Describe what, if any changes I anticipate making to address the observation.</td>
+                                <td class="py-2 px-4 border-b align-top">Feedback about the transportation graph being important and giving new perspective</td>
+                                <td class="py-2 px-4 border-b align-top">Choose a different visualization for transportation, but not necessarily the suggested side-by-side bar chart</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top">Considering grocery vs. restaurants & bars</td>
+                                <td class="py-2 px-4 border-b align-top">Keep restaurants & bars, or replace them with grocery; including both feels like too much</td>
                             </tr>
                             <tr>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top">Suggestion to add images for clarity</td>
+                                <td class="py-2 px-4 border-b align-top">Add background images to support each preference, making it easier for people to follow along as preferences are discussed</td>
                             </tr>
                              <tr>
-                                <td class="py-2 px-4 border-b">...add more rows as necessary</td>
-                                <td class="py-2 px-4 border-b">&nbsp;</td>
+                                <td class="py-2 px-4 border-b align-top">Storyboard phrasing and placement of personas</td>
+                                <td class="py-2 px-4 border-b align-top">Move personas to the end and rephrase the storyboard</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b align-top">Interest in data about neighborhood fit and study success</td>
+                                <td class="py-2 px-4 border-b align-top">Try to find a dataset; if not available, frame it as a recommendation instead of a fact</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <p class="text-gray-700 leading-relaxed">Text here!</p>
             </section>
 
              <!-- Personas Section -->
@@ -167,7 +170,8 @@
                     <!-- Maya -->
                     <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
                         <img src="images/Maya 2.png" alt="Persona for Maya" class="w-36 h-64 rounded-lg mb-4 border-2 border-blue-500 object-cover">
-                        <h4 class="text-xl font-bold text-center mb-1">Maya (Newcomer)</h4>
+                        <h4 class="text-xl font-bold text-center">Maya</h4>
+                        <p class="text-sm text-gray-500 text-center mb-2 font-bold">(Newcomer)</p>
                         <p class="text-center text-sm text-gray-500 mb-4 flex-grow">Business student at Tepper, proud of her school. Loves bars and social campus events. Very athletic and enjoys group sports like running and pickleball.</p>
                         <div class="text-sm w-full">
                             <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Social Events on Campus, Restaurants & Bars</p>
@@ -177,7 +181,8 @@
                     <!-- Li -->
                     <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
                         <img src="images/Li 2.png" alt="Persona for Li" class="w-36 h-64 rounded-lg mb-4 border-2 border-green-500 object-cover">
-                        <h4 class="text-xl font-bold text-center mb-1">Li (First-Year → Second Year)</h4>
+                        <h4 class="text-xl font-bold text-center">Li</h4>
+                        <p class="text-sm text-gray-500 text-center mb-2 font-bold">(First-Year → Second Year)</p>
                         <p class="text-center text-sm text-gray-500 mb-4 flex-grow">International student, very focused on studies. Loves swimming at the campus pool and enjoys eating out occasionally. Staying close to campus is very important to her.</p>
                         <div class="text-sm w-full">
                             <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Safety & Security, Proximity to Campus</p>
@@ -187,7 +192,8 @@
                     <!-- Alex -->
                     <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
                         <img src="images/Alex 2.png" alt="Persona for Alex" class="w-36 h-64 rounded-lg mb-4 border-2 border-purple-500 object-cover">
-                        <h4 class="text-xl font-bold text-center mb-1">Alex (Graduate Student)</h4>
+                        <h4 class="text-xl font-bold text-center">Alex</h4>
+                        <p class="text-sm text-gray-500 text-center mb-2 font-bold">(Graduate Student)</p>
                         <p class="text-center text-sm text-gray-500 mb-4 flex-grow">Arts Management student. Loves live music, bars, and the coffee culture. Active in a campus dance club and enjoys the city’s cultural scene.</p>
                         <div class="text-sm w-full">
                             <p class="mb-2"><strong class="font-semibold text-gray-800">Top Preferences:</strong> Arts & Entertainment, Live Music & Bars</p>
@@ -223,6 +229,4 @@
 
 </body>
 </html>
-
-
 
