@@ -166,7 +166,7 @@
                 <div class="grid md:grid-cols-3 gap-8 mt-6">
                     <!-- Maya -->
                     <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
-                        <img src="images/maya 2.png" alt="Persona for Maya" class="w-36 h-64 rounded-lg mb-4 border-2 border-blue-500 object-cover">
+                        <img src="images/Maya 2.png" alt="Persona for Maya" class="w-36 h-64 rounded-lg mb-4 border-2 border-blue-500 object-cover">
                         <h4 class="text-xl font-bold text-center mb-1">Maya (Newcomer)</h4>
                         <p class="text-center text-sm text-gray-500 mb-4 flex-grow">Business student at Tepper, proud of her school. Loves bars and social campus events. Very athletic and enjoys group sports like running and pickleball.</p>
                         <div class="text-sm w-full">
@@ -176,7 +176,7 @@
                     </div>
                     <!-- Li -->
                     <div class="border border-gray-200 rounded-lg p-6 shadow-md bg-gray-50 flex flex-col items-center">
-                        <img src="images/li 2.png" alt="Persona for Li" class="w-36 h-64 rounded-lg mb-4 border-2 border-green-500 object-cover">
+                        <img src="images/Li 2.png" alt="Persona for Li" class="w-36 h-64 rounded-lg mb-4 border-2 border-green-500 object-cover">
                         <h4 class="text-xl font-bold text-center mb-1">Li (First-Year → Second Year)</h4>
                         <p class="text-center text-sm text-gray-500 mb-4 flex-grow">International student, very focused on studies. Loves swimming at the campus pool and enjoys eating out occasionally. Staying close to campus is very important to her.</p>
                         <div class="text-sm w-full">
