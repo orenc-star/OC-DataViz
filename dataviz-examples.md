@@ -125,7 +125,7 @@
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
                         <p class="text-gray-400 text-sm">
-                            I wrote all the text on this page. I used AI tools to assist in the final presentation of the content. Specifically, I used ChatGPT for suggestions on improving grammar, spelling, and clarity. The initial designs for the data visualizations were generated using Gemini.
+                            I used Gemini 2.5 Pro to generate the HTML for this website and implement the Tableau visualization.
                         </p>
                     </div>
                 </div>
