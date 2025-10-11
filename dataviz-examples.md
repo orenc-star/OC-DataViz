@@ -113,7 +113,8 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
-                        <p class="text-gray-400 text-sm"><em>List any references you used here.</em></p>
+                         <div class="text-gray-400 text-sm space-y-2">
+                            <p>Google. "Gemini 2.5 Pro." Accessed October 3, 2025. https://gemini.google.com.</p>
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
