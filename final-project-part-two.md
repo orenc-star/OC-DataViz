@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
-                    <p class="text-gray-500 text-sm">&copy; 2024 Oren C. All Rights Reserved.</p>
+                    <p class="text-gray-500 text-sm">&copy; 2025 Oren C. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
