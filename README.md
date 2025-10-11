@@ -110,23 +110,31 @@
         </div>
     </main>
 
-    <!-- Footer -->
+        <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8">
-            <div class="max-w-4xl mx-auto text-center">
+            <div class="max-w-3xl mx-auto text-center">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
-                         <div class="text-gray-400 text-sm space-y-2">
-                            <p>Google. "Gemini 2.5 Pro." Accessed October 3, 2025. https://gemini.google.com.</p>
+                         <ul class="text-gray-400 text-sm list-disc list-inside space-y-2">
+                            <li>City of Pittsburgh. "Police Data Portal." Accessed September 26, 2025. https://www.pittsburghpa.gov/Safety/Police/Police-Data-Portal.</li>
+                            <li>Google. *Gemini 2.5*. 2025.</li>
+                            <li>OpenAI. *ChatGPT*. 2025.</li>
+                            <li>University of Pittsburgh Center for Social and Urban Research. "Pittsburgh Neighborhood Profiles - June 2024." June 2024. Accessed September 26, 2025. https://ucsur.pitt.edu/sites/default/files/Census%20Reports/PittsburghNeighborhoodProfiles_June2024.pdf.</li>
+                            <li>Western Pennsylvania Regional Data Center. "2020 Census Redistricting Data Extracts." Accessed September 26, 2025. https://data.wprdc.org/dataset/2020-census-redistricting-data-extracts.</li>
+                             <li>Western Pennsylvania Regional Data Center. "Monthly Criminal Activity Dashboard." Accessed September 26, 2025. https://data.wprdc.org/dataset/monthly-criminal-activity-dashboard.</li>
+                         </ul>
                     </div>
                      <div>
                         <h3 class="font-bold text-lg mb-2">AI Acknowledgements</h3>
-                        <p class="text-gray-400 text-sm"><em>I used Gemini 2.5 Pro to generate the HTML for this website.</em></p>
+                        <p class="text-gray-400 text-sm">
+                            I wrote all the text on this page. I used AI tools to assist in the final presentation of the content. Specifically, I used ChatGPT for suggestions on improving grammar, spelling, and clarity. The initial designs for the data visualizations were generated using Gemini.
+                        </p>
                     </div>
                 </div>
                 <div class="mt-8 border-t border-gray-700 pt-6">
-                    <p class="text-gray-500 text-sm">&copy; 2025 Oren Cohen. All Rights Reserved.</p>
+                    <p class="text-gray-500 text-sm">&copy; 2025 Oren C. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -134,5 +142,3 @@
 
 </body>
 </html>
-
-
