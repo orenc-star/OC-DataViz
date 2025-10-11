@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
     <title>Final Project Part III - Oren's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,9 +61,8 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-2">Narrative and Story Flow</h3>
                         <ul class="list-disc list-inside space-y-2">
                             <li><strong>Shifted Narrative Goal:</strong> Based on professor feedback, the story's focus shifted from asking "Which is the perfect Pittsburgh neighborhood?" to a more personal "Finding *your* perfect neighborhood." This clarified the purpose and changed the goal from simple information delivery to a persuasive journey designed to guide a user towards signing up for a newsletter.</li>
-                            <li><strong>Strategic Repositioning of Personas:</strong> Contrary to initial feedback, I moved the personas to the *start* of the story. They now serve as a crucial "checkpoint," helping users understand the concept of preferences and how they define a profile *before* they analyze the data.</li>
+                            <li><strong>Strategic Repositioning of Personas:</strong> Contrary to initial feedback, I left the personas on the *start* of the story. They now serve as a crucial "checkpoint," helping users understand the concept of preferences and how they define a profile *before* they analyze the data.</li>
                              <li><strong>Refined Project Scope:</strong> I removed the original claim linking neighborhood choice to academic success. This felt like it was expanding the scope beyond what I could realistically back up with data and kept the project focused on its core goal.</li>
-                             <li><strong>Added Interactive Survey:</strong> The story now opens with an interactive survey to immediately engage the user and provide a clear justification for the subsequent analysis.</li>
                         </ul>
                     </div>
                     <div>
@@ -71,8 +70,6 @@
                         <ul class="list-disc list-inside space-y-2">
                              <li><strong>Prioritized Essential Amenities:</strong> Based on feedback, I switched the focus from "Restaurants" to "Grocery Stores," as this is a more universal and frequent need for the target student audience.</li>
                             <li><strong>Redesigned Transportation Chart:</strong> The initial transportation visual was unclear. It was redesigned into a back-to-back bar chart comparing commute time and bus frequency, which allows for easier sorting and comparison.</li>
-                            <li><strong>Introduced "Podium" Charts:</strong> To support the new persuasive narrative, I developed "podium" style charts for each preference. This design clearly and quickly communicates the "winning" neighborhood for each category. For clarity, I used a unique color for each neighborhood rather than confusing medal colors.</li>
-                            <li><strong>Implemented Interactive Radar Chart:</strong> Based on professor feedback, the final summary radar chart was transformed from a static image into an interactive tool. Users can now select and compare a custom set of 3-5 preferences, making the final recommendations feel highly personalized and actionable.</li>
                         </ul>
                     </div>
                 </div>
@@ -81,25 +78,95 @@
             <!-- The audience -->
             <section class="mt-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">The Audience</h2>
-                 <blockquote class="my-4">
-                    Talk about who you identified as the audience for your final data story. Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.). Note any specific adjustments you made to your final project to make it work for your audience.
-                </blockquote>
-                <p class="text-gray-700 leading-relaxed">Text here!</p>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    While developing this project, my understanding of the target audience evolved. Initially, I received feedback that rental rates should be a key preference. However, after creating personas and considering the student journey, I realized that rental costs are often comparable across the main student neighborhoods; the real difference lies in the lifestyle and value each area offers. This insight led me to focus on preferences that are more critical to students, many of whom may not have a car, such as proximity to grocery stores, coffee shops, and reliable public transportation. This shift allowed me to tailor the story to the practical, day-to-day needs of my audience.
+                </p>
+                <p class="text-gray-700 leading-relaxed font-bold mb-2">My target audience for this project is composed of three primary groups, all of whom are at a key transition point in their housing journey in Pittsburgh:</p>
+                 <ul class="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
+                    <li><strong>Newcomer Students:</strong> Individuals who are new to Pittsburgh and need initial guidance on where to live.</li>
+                    <li><strong>Second-Year Students:</strong> Students who have completed their first year, whose housing contracts may be ending, and are looking to move to a new neighborhood that better suits their established routines and preferences.</li>
+                    <li><strong>Recent Graduates:</strong> Individuals who have finished their studies and have accepted jobs in Pittsburgh. Their needs are shifting from a student-centric lifestyle to that of a working professional, and they are looking for a neighborhood that reflects this change.</li>
+                </ul>
             </section>
 
              <!-- Final design decisions -->
             <section class="mt-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Final Design Decisions</h2>
-                 <blockquote class="my-4">
-                    You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process. Include any other information that helps round out your data story.
-                </blockquote>
-                <p class="text-gray-700 leading-relaxed">Text here!</p>
+                 <div class="text-gray-700 leading-relaxed space-y-6 mt-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Charts & Visual Design</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Introduced "Podium" Charts:</strong> To support the new persuasive narrative, I developed "podium" style charts for each preference. This design clearly and quickly communicates the "winning" neighborhood for each category. For clarity, I used a unique color for each neighborhood rather than confusing medal colors.</li>
+                            <li><strong>Implemented Interactive Radar Chart:</strong> Based on professor feedback, the final summary radar chart was transformed from a static image into an interactive tool. Users can now select and compare a custom set of 3-5 preferences, making the final recommendations feel highly personalized and actionable.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Shorthand Flow</h3>
+                        <p> I structured the Shorthand story to create a balanced rhythm for the reader. The flow intentionally alternates between text and imagery to keep the narrative engaging. For the data sections, I adopted a two-step approach: first, presenting the data visualization with a neutral explanation of what it shows, and then immediately following up with a "conclusion" in the form of a podium chart that interprets the data for the user. This "data-then-conclusion" and "image-then-text" pattern was designed to make the story easy to follow while ensuring the key takeaways were clear and impactful.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Imagery</h3>
+                         <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Context-Specific Imagery:</strong> I strategically dividing the images into two categories: "Neighborhood" images were paired with data to provide visual context for the analysis, while "inside the house" images were used to create a more personal, relatable tone for the reader.  I used AI image generation to create visuals that specifically matched the environment and stage of my story. This allowed me to produce unique, highly relevant images that were more effective than generic stock photos.</li>
+                            <li><strong>Persona & Narrative Imagery:</strong> AI was particularly powerful for creating the persona images. I was able to generate portraits where background elements and objects reflected the specific characteristics and preferences of each persona, making them more relatable and instantly understandable. This use of AI-generated imagery extended to the story's climax, where the final section has a background video depicting all three personas interacting. This served as a powerful visual conclusion that reinforced the idea of a shared student experience while expressing the call to action.</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <!-- Project References -->
             <section class="mt-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Project References</h2>
-                <p class="text-gray-700 leading-relaxed"><!-- Your text for overall project references goes here --></p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white border border-gray-300 text-sm">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="py-2 px-4 border-b text-left">Name (Chicago Citation)</th>
+                                <th class="py-2 px-4 border-b text-left">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-gray-50">
+                                <td colspan="2" class="py-2 px-4 border-b font-bold text-gray-600">Data Sources</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b">"File:Pittsburgh Pennsylvania neighborhoods.svg." Wikipedia. Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://en.wikipedia.org/wiki/File:Pittsburgh_Pennsylvania_neighborhoods.svg" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b">Oren C. "Data for Telling Data - Final." Google Sheets. [Data cleaning and analysis worksheet]. Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://docs.google.com/spreadsheets/d/1-gQkKBfqiGtIRLT4hxewYCGvmuBwon9c9KapOCa7oLM/edit?usp=sharing" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b">Google Maps. "Grocery store [Squirrel Hill, Shadyside, etc.]." Search results. [Sample link for searches performed on all target neighborhoods]. Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://www.google.com/maps/search/grocery+store+squirrel+hill/@40.4348393,-79.9296764,15.69z/data=!4m2!2m1!6e6?entry=ttu" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b">Western Pennsylvania Regional Data Center. "Monthly Criminal Activity Dashboard." Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://data.wprdc.org/dataset/monthly-criminal-activity-dashboard/resource/bd41992a-987a-4cca-8798-fbe1cd946b07" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b">Western Pennsylvania Regional Data Center. "2020 Census Redistricting Data Extracts." Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://data.wprdc.org/dataset/2020-census-redistricting-data-extracts/resource/a8414ed5-c50f-417e-bb67-82b734660da6" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b">Pittsburgh Regional Transit. "All Schedules." Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b"><a href="https://www.rideprt.org/all-schedules/" class="text-blue-600 hover:underline" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td colspan="2" class="py-2 px-4 border-b font-bold text-gray-600">AI Tools</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border-b">Google. "Gemini 2.5 Pro." Large language model. Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b">N/A</td>
+                            </tr>
+                             <tr>
+                                <td class="py-2 px-4 border-b">Perplexity AI. "Perplexity Comet." AI search engine. Accessed October 10, 2025.</td>
+                                <td class="py-2 px-4 border-b">N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
 
             <!-- Project AI Acknowledgements -->
@@ -143,4 +210,8 @@
 
 </body>
 </html>
+
+
+
+
 
