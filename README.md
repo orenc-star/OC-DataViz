@@ -91,23 +91,6 @@
                     <a href="final-project-part-two.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part II</a>
                     <a href="final-project-part-three.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part III</a>
                 </div>
-            </section>
-
-             <!-- Image Example Section -->
-            <section id="image-example" class="mb-16 bg-white p-8 rounded-lg shadow-md">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Adding Images</h2>
-                <p class="text-gray-700 leading-relaxed mb-6">Here's an example of how to add an image to my portfolio.</p>
-                <div class="text-center">
-                    <img src="images/funny-dog-unsplash.jpg" 
-                         alt="A funny dog wearing glasses" 
-                         class="rounded-lg shadow-lg mx-auto w-full max-w-md"
-                         onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Not+Found';">
-                    <p class="text-xs text-gray-500 mt-2">
-                        Original photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio" class="underline">charlesdeluvio</a> on <a href="https://unsplash.com" class="underline">Unsplash</a>
-                    </p>
-                </div>
-            </section>
-        </div>
     </main>
 
         <!-- Footer -->
