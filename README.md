@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,9 +40,10 @@
                 <p class="text-lg text-gray-600 mb-6">This is my public portfolio showing how to tell stories with Data. Hope you will enjoy!</p>
                 <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md text-left text-sm">
                     <p class="font-semibold">Quick Links:</p>
-                    <ul class="list-disc list-inside mt-2">
-                        <li><strong>Web page URL:</strong> <a href="https://orenc-star.github.io/OC-DataViz/index.html" class="underline hover:text-blue-800">https://orenc-star.github.io/OC-DataViz/index.html</a></li>
+                    <ul class="list-disc list-inside mt-2 space-y-1">
                         <li><strong>Repository:</strong> <a href="https://github.com/cmustudent/tswd-portfolio-templates/" class="underline hover:text-blue-800">https://github.com/cmustudent/tswd-portfolio-templates/</a></li>
+                        <li><strong>Final Story:</strong> <a href="https://carnegiemellon.shorthandstories.com/which-student-profile-are-you/index.html" class="underline hover:text-blue-800">Finding Your Perfect Pittsburgh Neighborhood!</a></li>
+                        <li><strong>Presentation Video:</strong> <a href="https://drive.google.com/file/d/1wOS2SSUSkgEkwLC1sHtMRKqZzrumJNfl/view?usp=sharing" class="underline hover:text-blue-800">Watch Video</a></li>
                     </ul>
                 </div>
             </section>
@@ -71,13 +72,13 @@
                     <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <h3 class="text-2xl font-semibold mb-2">Assignment: Visualizing Government Debt</h3>
                         <p class="text-gray-600 mb-4">For this assignment, I set up and linked to a new page to explore government debt data.</p>
-                        <a href="visualizing-government-debt.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                        <a href="dataviz-examples.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
                     </div>
                     <!-- Assignment Card 2 -->
                     <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <h3 class="text-2xl font-semibold mb-2">Assignment 3 & 4: Critique by Design</h3>
                         <p class="text-gray-600 mb-4">For this assignment, I analyzed and redesigned an existing visualization.</p>
-                        <a href="critique-by-design.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
+                        <a href="myFolder/critique-by-design.html" class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">View Project &rarr;</a>
                     </div>
                 </div>
             </section>
@@ -91,12 +92,15 @@
                     <a href="final-project-part-two.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part II</a>
                     <a href="final-project-part-three.html" class="bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors">Part III</a>
                 </div>
+            </section>
+
+        </div>
     </main>
 
-        <!-- Footer -->
+    <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-6 py-8">
-            <div class="max-w-3xl mx-auto text-center">
+            <div class="max-w-4xl mx-auto text-center">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
@@ -120,3 +124,5 @@
 
 </body>
 </html>
+
+
