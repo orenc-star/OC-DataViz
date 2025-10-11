@@ -115,7 +115,7 @@
                         <h3 class="font-bold text-lg mb-2">References</h3>
                          <ul class="text-gray-400 text-sm list-disc list-inside space-y-2">
                          
-                            <li>Google. *Gemini 2.5*. 2025.</li>
+                            <li>Google. "Gemini 2.5 Pro." Large language model. Accessed October 11, 2025.</li>
                            
                          </ul>
                     </div>
