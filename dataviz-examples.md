@@ -114,12 +114,9 @@
                     <div>
                         <h3 class="font-bold text-lg mb-2">References</h3>
                          <ul class="text-gray-400 text-sm list-disc list-inside space-y-2">
-                            <li>City of Pittsburgh. "Police Data Portal." Accessed September 26, 2025. https://www.pittsburghpa.gov/Safety/Police/Police-Data-Portal.</li>
+                         
                             <li>Google. *Gemini 2.5*. 2025.</li>
-                            <li>OpenAI. *ChatGPT*. 2025.</li>
-                            <li>University of Pittsburgh Center for Social and Urban Research. "Pittsburgh Neighborhood Profiles - June 2024." June 2024. Accessed September 26, 2025. https://ucsur.pitt.edu/sites/default/files/Census%20Reports/PittsburghNeighborhoodProfiles_June2024.pdf.</li>
-                            <li>Western Pennsylvania Regional Data Center. "2020 Census Redistricting Data Extracts." Accessed September 26, 2025. https://data.wprdc.org/dataset/2020-census-redistricting-data-extracts.</li>
-                             <li>Western Pennsylvania Regional Data Center. "Monthly Criminal Activity Dashboard." Accessed September 26, 2025. https://data.wprdc.org/dataset/monthly-criminal-activity-dashboard.</li>
+                           
                          </ul>
                     </div>
                      <div>
